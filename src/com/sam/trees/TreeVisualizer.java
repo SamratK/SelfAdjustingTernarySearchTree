@@ -63,6 +63,7 @@ public class TreeVisualizer extends Application{
 		group = getVisualElements(createVisualElements(), stage.getWidth());
 		Scene scene = new Scene(group);
 		stage.setScene(scene);
+		stage.setTitle("SelfAdjustingTernarySearchTree");
 		stage.show();
 	}
 	

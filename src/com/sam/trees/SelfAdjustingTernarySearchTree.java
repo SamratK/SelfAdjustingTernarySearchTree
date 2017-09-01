@@ -286,7 +286,7 @@ public class SelfAdjustingTernarySearchTree {
     /*
      * Utility method to perform right rotation at the given node.
      */
-    TernaryTreeNode rightRotate(TernaryTreeNode x){
+    private TernaryTreeNode rightRotate(TernaryTreeNode x){
     	TernaryTreeNode y = x.left;
     	x.left = y.right;
     	y.right = x;
