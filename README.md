@@ -62,3 +62,10 @@ Components:-
 # Summary
 Conditional TST is the best scheme that can be used to improve the performance of the original TST and it has the ability to learn when to stop “self-adjusting” whenever the tree will not need further adjustments.
 More details of the concept can be found in the paper by aforementioned authors.
+
+<h2>Notes</h2>
+<ul>
+<li>tou values can be normalized after number of searches.</li>
+<li>Tree restructuring can be avoided for unsuccessful searches.</li>
+<li>TreeVisualizer can be improved to better display the nodes.</li>
+</ul>
