@@ -65,7 +65,8 @@ More details of the concept can be found in the paper by aforementioned authors.
 
 <h2>Notes</h2>
 <ul>
-<li>tou values can be normalized after number of searches.</li>
+<li>tou values can be normalized after number of searches. Let touMax be maximum tou value and touMin be minimum tou value. The required scale down range be [touSmin, touSmax]. Then new tou value can be calculated as :-<pre>
+tou(i) = (touSmax - touSmin) * (tou(i) - touMin)/(touMax - touMin) + touSmin.</pre></li>
 <li>Tree restructuring can be avoided for unsuccessful searches.</li>
 <li>TreeVisualizer can be improved for better display of nodes.</li>
 </ul>
