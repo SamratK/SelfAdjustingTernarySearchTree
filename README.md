@@ -6,7 +6,7 @@ A Ternary Search Tree (TST) is a highly efficient dynamic dictionary structure a
 data. They are more space efficient compared to standard prefix trees, at the cost of speed. The aim of this project is to implement
 an algorithm to restructure the TST so as to yield the best access or retrieval time. Unlike the case of lists and binary search trees,
 where numerous methods have been proposed, in the case of the TST, currently, the number of reported adaptive
-schemes are few. This implementation is based on the paper by Ghada Hany Badr and B. John Oommen for self-adjusting ternary search trees.
+schemes are few. This implementation is based on the paper by Ghada Hany Badr and B. John Oommen for self-adjusting ternary search trees. It's my interpretation and not the exact algorithm given in the paper.
 
 # TST Features
 Few points about TSTs before we discuss the restructuring schemes :-
